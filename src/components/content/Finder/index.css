@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  height: 100vh;
+  margin-right: -8px;
+  width: 100%;
+}
+
+.map-box {
+  flex: 75%;
+}
+
+.filter-box {
+  overflow-y: scroll;
+  padding: 20px;
+  flex: 310px;
+  background-color: #ffffff;
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    overflow-y: hidden;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+
+}

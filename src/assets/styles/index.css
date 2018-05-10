@@ -1,0 +1,11 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
